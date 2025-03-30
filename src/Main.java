@@ -11,6 +11,7 @@ public class Main {
                 int[] arr = new int[n];
                 for (int i = 0; i < n; i++) arr[i] = sc.nextInt();
                 System.out.println(minElement(arr, n - 1));
+                public static int sum(int a, int b)
             }
             case 2 -> {
                 int n = sc.nextInt();
