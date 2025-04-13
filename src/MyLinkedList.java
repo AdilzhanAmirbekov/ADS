@@ -175,7 +175,7 @@ class MyLinkedList<T> implements MyList<T> {
     }
 
     public java.util.Iterator<T> iterator() {
-        return new java.util.Iterator<T>() {
+        return new java.util.Iterator<>() {
             private Node current = head;
 
             public boolean hasNext() {

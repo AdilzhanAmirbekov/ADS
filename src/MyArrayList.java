@@ -10,7 +10,7 @@ public class MyArrayList<T> implements MyList<T> {
     private void ensureCapacity() {
         if (size == data.length) {
             Object[] newData = new Object[data.length * 2];
-            System.arraycopy(data, 0, newData, 0, data.length); // авто копирование
+            System.arraycopy(data, 0, newData, 0, data.length);
             data = newData;
         }
     }
